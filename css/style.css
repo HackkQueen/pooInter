@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://w.wallhaven.cc/full/ex/wallhaven-ex9gwo.png);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    width: 600px;
+    background-color: #ffffff60;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-md-4 {
+    margin-bottom: 5px;
+}
+
+#re {
+    background-color: rgba(165, 42, 42, 0.534);
+}
+#ret {
+    background-color: rgba(214, 27, 189, 0.507);
+}
+#rex {
+    background-color: rgba(108, 27, 214, 0.507);
+}
+#rep {
+    background-color: rgba(42, 81, 165, 0.534);
+}
+
+.form-content {
+    overflow-y: auto;
+    max-height: calc(80vh - 60px); /* Ajusta el valor según el tamaño del encabezado */
+}
